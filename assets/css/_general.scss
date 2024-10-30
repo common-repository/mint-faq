@@ -1,0 +1,50 @@
+/*@use 'lib-fonts';*/
+
+.mint-faq-single-q-highlighted-y .mint-faq-q {
+    font-weight: bold;
+}
+
+.mint-faq-a-prepend-text {
+    padding: 0 0 10px;
+    line-height: 1;
+}
+
+.mint-faq-a-hide-link {
+    padding: 2px 0 0;
+
+    a {
+        line-height: 1;
+    }
+}
+
+.mint-faq-clear {
+    clear: both;
+}
+
+.mint-faq-clear {
+    &:before, &:after{
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    clear: both;
+}
+
+.mint-faq-heading {
+
+    .mint-faq-title {
+        margin-top: 0;
+        margin-bottom: 8px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mint-faq-description {
+        font-size: 0.9em;
+        line-height: 1.7;
+        padding-bottom: 8px;
+        display: block;
+    }
+
+    margin: 0 0 10px;
+}

@@ -1,0 +1,71 @@
+@import 'lib-mixins';
+
+.mint-faq-nav-item-symbol-align-left,
+.mint-faq-single-q-symbol-align-left {
+    .mint-faq-symbol{
+        padding-right: 10px;
+
+        &::before{
+            vertical-align: bottom;
+        }
+    }
+}
+
+.mint-faq-nav-item-symbol-align-right,
+.mint-faq-single-q-symbol-align-right {
+    .mint-faq-symbol{
+        text-align: right;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &::before{
+            vertical-align: bottom;
+        }
+    }
+}
+
+
+.mint-faq-single-q-symbol-align-corner-right {
+    .mint-faq-symbol{
+        width: 10%;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        vertical-align: text-bottom;
+    }
+    .mint-faq-q-question {
+        display: inline-block;
+        width: 88%;
+    }
+}
+
+.mint-faq-nav-item-symbol-align-corner-right {
+    .mint-faq-symbol{
+        float: right;
+        text-align: right;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &::before{
+            vertical-align: baseline;
+        }
+    }
+}
+
+.mint-faq-symbol::before{
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.mint-faq-cat-symbol,
+.mint-faq-cat-item,
+.mint-faq-q-symbol,
+.mint-faq-q-question{
+    @include box-sizing;
+}
+
+.mint-faq-cat-item{
+    word-break: break-all;
+}

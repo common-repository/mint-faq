@@ -1,0 +1,57 @@
+/* Separate this file and conditionally load using PHP if not PRO */
+/* Just the loading of this css file will change to pro css file rest will be same */
+
+@font-face {
+  font-family: 'promptplugins-icons';
+  src:  url('fonts/promptplugins-icons.eot?y1t6ps');
+  src:  url('fonts/promptplugins-icons.eot?y1t6ps#iefix') format('embedded-opentype'),
+    url('fonts/promptplugins-icons.ttf?y1t6ps') format('truetype'),
+    url('fonts/promptplugins-icons.woff?y1t6ps') format('woff'),
+    url('fonts/promptplugins-icons.svg?y1t6ps#promptplugins-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.mint-faq-q-symbol, .mint-faq-cat-symbol {
+  font-family: 'promptplugins-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pp-icon-triangle-right:before {
+  content: "\e900";
+}
+.pp-icon-triangle-down:before {
+  content: "\e901";
+}
+.pp-icon-open-right-arrow-circle:before {
+  content: "\e902";
+}
+.pp-icon-open-right-arrow:before {
+  content: "\e903";
+}
+.pp-icon-open-down-arrow-circle:before {
+  content: "\e904";
+}
+.pp-icon-open-down-arrow:before {
+  content: "\e905";
+}
+.pp-icon-plus-brackets-square:before {
+  content: "\e906";
+}
+.pp-icon-plus:before {
+  content: "\e907";
+}
+.pp-icon-minus-brackets-square:before {
+  content: "\e908";
+}
+.pp-icon-minus:before {
+  content: "\e909";
+}

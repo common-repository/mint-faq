@@ -1,0 +1,28 @@
+/* Layout layers */
+@import 'lib-mixins';
+
+.mint-faq-layout-layered {
+
+    .mint-faq-nav {
+        @include box-sizing;
+        width: 100%;
+    }
+
+    .mint-faq-nav-item {
+
+        a[href^="#mint-faq-section"] {
+			font-size: 1em;
+			line-height: 1;
+			display: block;
+			padding: 17px 20px;
+			width: 100%;
+            text-decoration: none !important;
+        }
+    }
+
+    .mint-faq-modal {
+        @include box-sizing;
+        width: 100%;
+    }
+	
+}

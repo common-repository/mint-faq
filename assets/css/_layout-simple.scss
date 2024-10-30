@@ -1,0 +1,21 @@
+/* Simple menu */
+@import 'lib-mixins';
+
+.mint-faq-layout-simple {
+    .mint-faq-modal {
+        @include box-sizing;
+        width: 100%;
+        padding-top: 4px; /* Adjust height*/
+    }
+    .mint-faq-faqs {
+        padding-bottom: 10px;
+    }
+    
+    .mint-faq-heading {
+        .mint-faq-description {
+            line-height: 1.3;
+            padding-bottom: 4px;
+        }
+    }
+
+}

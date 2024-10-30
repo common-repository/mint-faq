@@ -1,0 +1,55 @@
+@import 'lib-mixins';
+
+.mint-faq-section {
+    display: none;
+}
+
+.mint-faq-section-visible {
+    display: block;
+}
+
+.mint-faq-nav > ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0;
+}
+
+.mint-faq-nav-item {
+    @include box-sizing;
+}
+.mint-faq-nav-item a {
+    font-size: 1em;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.mint-faq-nav > ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.mint-faq-q {
+    font-size: 1em;
+    line-height: 1.2;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.mint-faq-q-question {
+    line-height: 1.2;
+}
+.mint-faq-a {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    padding: 0 0 0 18px;
+
+    &.mint-faq-a-show {
+        display: block;
+    }
+
+    &.mint-faq-a-hide {
+        display: none;
+    }
+}

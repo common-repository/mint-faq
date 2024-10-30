@@ -1,0 +1,260 @@
+@import 'lib-mixins';
+
+@mixin skin-faq-general {
+	outline: 0;
+	border: 0;
+}
+
+@mixin skin-faq-general-margin-bottom {
+	margin-bottom: 1px;
+}
+
+@mixin skin-faq-minimalist {
+	padding: 10px 0;
+}
+
+@mixin skin-faq-uncluttered {
+	padding-top: 10px;
+	border-bottom: 1px dashed #6d6d6d;
+}
+
+@mixin skin-faq-bricks {
+	padding: 14px 10px;
+	margin-bottom: 2px;
+	background-color: #6d6d6d;
+	/*background-color: #f2689f;*/
+	color: #FFFFFF;
+}
+@mixin skin-faq-elegant {
+	@include skin-faq-bricks;
+}
+
+@mixin skin-faq-elegant-odd {
+	background-color: #545454;
+}
+
+@mixin skin-faq-elegant-even {
+	background-color: #6d6d6d;
+}
+
+@mixin skin-faq-distinct {
+	border: 1px solid #545454;
+	margin-bottom: -1px;
+}
+
+@mixin skin-faq-distinct-border-bottom {
+	border-bottom: 1px solid #545454;
+}
+
+@mixin skin-faq-round {
+	@include border-radius(14px);
+}
+
+@mixin skin-faq-steps {
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+@mixin skin-faq-steps-border-left{
+	border-left: 1px solid #6d6d6d;
+}
+
+@mixin skin-faq-buttons{
+	@include border-radius(5px);
+	margin-bottom: 3px;
+}
+
+@mixin skin-faq-impact-border-top {
+	border-top: 7px solid #545454;
+}
+
+@mixin skin-faq-impact-border-bottom {
+	border-bottom: 7px solid #545454;
+}
+
+@mixin skin-faq-impact {
+	@include box-sizing;
+	border: 5px solid #545454;
+	border-top-width: 3px;
+	border-bottom-width: 2px;
+}
+
+
+/* faq skins */
+.mint-faq-skin-faq-minimalist {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-minimalist;			
+		}
+	}
+	&.mint-faq-layout-layered{
+		.mint-faq-single-q {
+			padding-left: 8px;
+
+			&:first-child .mint-faq-q{
+				padding-top: 12px;
+			}
+
+			&:last-child .mint-faq-q{
+				padding-bottom: 14px;
+			}
+		}
+
+	}
+	.mint-faq-a {
+		margin-top: 2px;
+	}
+}
+
+.mint-faq-skin-faq-uncluttered {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-minimalist;
+			@include skin-faq-uncluttered;
+		}
+	}
+	
+	.mint-faq-a {
+		margin-top: 14px;
+	}
+
+	&.mint-faq-layout-layered{
+		.mint-faq-single-q {
+			padding-left: 8px;
+
+			&:first-child .mint-faq-q{
+				padding-top: 12px;
+			}
+
+			&:last-child .mint-faq-q{
+				margin-bottom: 12px;
+				border-bottom: 0;
+			}
+		}
+	}
+}
+
+.mint-faq-skin-faq-bricks {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-bricks;
+		}
+	}
+}
+
+.mint-faq-skin-faq-elegant {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-bricks;
+		}
+
+		&:nth-child(odd) {
+			.mint-faq-q {
+				@include skin-faq-elegant-odd;
+			}
+		}
+		&:nth-child(even) {
+			.mint-faq-q {
+				@include skin-faq-elegant-even;
+			}
+		}
+	}
+
+}
+
+.mint-faq-skin-faq-distinct {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-bricks;
+			@include skin-faq-distinct;
+		}
+		
+		&:last-child{
+			.mint-faq-q {
+				@include skin-faq-distinct-border-bottom;
+			}
+		}
+	}
+}
+
+.mint-faq-skin-faq-round {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-general-margin-bottom;
+			@include skin-faq-bricks;
+			@include skin-faq-round;
+			margin-bottom: 1px;
+		}
+	}
+}
+
+.mint-faq-skin-faq-steps {
+	.mint-faq-container {
+		@include skin-faq-steps-border-left;
+	}
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-general-margin-bottom;
+			@include skin-faq-bricks;
+			@include skin-faq-steps;
+			margin-bottom: 3px;
+		}
+
+		&:last-child{
+			.mint-faq-q {
+				margin-bottom: 0px;
+			}		
+		}
+	}
+}
+
+.mint-faq-skin-faq-buttons {
+	.mint-faq-single-q {
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-general-margin-bottom;
+			@include skin-faq-bricks;
+			@include skin-faq-buttons;
+		}
+
+		&:last-child{
+			.mint-faq-q {
+				margin-bottom: 0px;
+			}		
+		}
+	}
+}
+
+
+.mint-faq-skin-faq-impact {
+	.mint-faq-single-q {
+		margin: 0;
+
+		.mint-faq-q {
+			@include skin-faq-general;
+			@include skin-faq-bricks;
+			@include skin-faq-impact;
+			margin-bottom: 0px;
+		}
+
+		&:first-child{
+			.mint-faq-q {
+				@include skin-faq-impact-border-top;
+			}
+		}
+		
+		&:last-child{
+			.mint-faq-q {
+				@include skin-faq-impact-border-bottom;
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mint-faq",
+  "version": "2.1.0",
+  "description": "FAQ plugin for WordPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss": "node_modules/.bin/sass assets/css/main.scss assets/css/mint-faq.css",
+    "watchbuildcss": "node_modules/.bin/sass --watch assets/css/main.scss assets/css/mint-faq.css",
+    "minifyjs": "node_modules/.bin/minify assets/mint-faq.js > assets/mint-faq.min.js",
+    "minifycss": "node_modules/.bin/minify assets/css/mint-faq.css > assets/css/mint-faq.min.css",
+    "build": "npm run buildcss && npm run minifycss && npm run minifyjs"
+  },
+  "keywords": [
+    "faq",
+    "faqs",
+    "wordpress",
+    "wp"
+  ],
+  "author": "promptplugins",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "minify": "^7.0.1",
+    "sass": "^1.30.0"
+  },
+  "dependencies": {}
+}

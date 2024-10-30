@@ -1,0 +1,40 @@
+/* Layout menu */
+@import 'lib-mixins';
+
+.mint-faq-layout-basic {
+
+    &.mint-faq-nav-left {
+        .mint-faq-nav {
+            float: left;
+        }
+        .mint-faq-modal {
+            float: left;
+            padding-left: 20px;
+        }
+        .mint-faq-idx-row {
+            float: left;
+        }
+        .mint-faq-idx-col {
+            float: left;
+            padding-right: 40px;
+        }
+    }
+    .mint-faq-nav {
+        @include box-sizing;
+        width: 20%;
+        max-width: 160px;
+
+		a {
+			display: block;
+			padding: 12px 6px 12px 4px;
+			color: inherit;
+			text-decoration: none !important;
+		}
+    }
+
+    .mint-faq-modal {
+        @include box-sizing;
+        width: 80%;
+        padding-top: 4px; /* Adjust height*/
+    }	
+}

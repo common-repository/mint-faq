@@ -1,0 +1,1305 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-09-19 23:56+0530\n"
+"PO-Revision-Date: 2021-03-30 20:51+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
+"esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/admin-blocks-basic-script.js:84
+#: includes/instructions/blocks.php:23
+#: includes/instructions/shortcodes.php:25
+#: includes/instructions/shortcodes.php:28
+msgid "Mint FAQ Basic"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:85
+msgid "Display FAQs for Basic Layout."
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:131
+#: assets/admin-blocks-layered-script.js:131
+#: assets/admin-blocks-simple-script.js:119
+msgid "(mint faq - select shortcode from block settings)"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:145
+#: assets/admin-blocks-layered-script.js:145
+#: assets/admin-blocks-simple-script.js:133
+#: includes/class-mintfaq-admin.php:1172
+msgid "FAQ Settings"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:154
+#: assets/admin-blocks-layered-script.js:154
+#: assets/admin-blocks-simple-script.js:142
+msgid "Shortcode"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:169
+#: assets/admin-blocks-layered-script.js:169
+msgid "Category Skin"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:184
+#: assets/admin-blocks-layered-script.js:184
+msgid "FAQ Skin"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:199
+#: assets/admin-blocks-layered-script.js:199
+msgid "Category Icon"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:214
+#: assets/admin-blocks-layered-script.js:214
+msgid "Category Icon Alignment"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:229
+#: assets/admin-blocks-layered-script.js:229
+msgid "FAQ Icon"
+msgstr ""
+
+#: assets/admin-blocks-basic-script.js:244
+#: assets/admin-blocks-layered-script.js:244
+msgid "FAQ Icon Alignment"
+msgstr ""
+
+#: assets/admin-blocks-layered-script.js:84
+#: includes/instructions/blocks.php:29
+#: includes/instructions/shortcodes.php:42
+#: includes/instructions/shortcodes.php:45
+msgid "Mint FAQ Layered"
+msgstr ""
+
+#: assets/admin-blocks-layered-script.js:85
+msgid "Display FAQs for Layered Layout."
+msgstr ""
+
+#: assets/admin-blocks-simple-script.js:84
+#: includes/instructions/blocks.php:35
+#: includes/instructions/shortcodes.php:59
+#: includes/instructions/shortcodes.php:62
+msgid "Mint FAQ Simple"
+msgstr ""
+
+#: assets/admin-blocks-simple-script.js:85
+msgid "Display FAQs for Simple Layout."
+msgstr ""
+
+#: assets/admin-blocks-simple-script.js:157
+msgid "Skin"
+msgstr ""
+
+#: assets/admin-blocks-simple-script.js:172
+msgid "Icon"
+msgstr ""
+
+#: assets/admin-blocks-simple-script.js:187
+msgid "Icon Alignment"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-submission.php:57
+msgctxt "error"
+msgid "Write a shortcode name"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-submission.php:61
+msgctxt "error"
+msgid "Name should be less than 50 characters"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-submission.php:65
+msgctxt "error"
+msgid "Select a shortcode type"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-submission.php:69
+msgctxt "error"
+msgid "Select at least 1 category"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-submission.php:108
+#: includes/admin/class-mintfaq-shortcodes-submission.php:166
+msgctxt "error"
+msgid "Some problem! refresh and try again."
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-submission.php:164
+msgctxt "error"
+msgid "Shortcode deleted."
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:55
+msgctxt "column name"
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:56
+msgctxt "column name"
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:57
+msgctxt "column name"
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:58
+msgctxt "column name"
+msgid "Modify"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:104
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:105
+#: includes/class-mintfaq-admin.php:1360
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:119
+#: includes/instructions/shortcodes.php:161
+msgid "Hint!"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:119
+msgid "Create categories and then assign those categories to FAQs."
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:137
+#: includes/class-mintfaq-admin.php:1213
+#: includes/class-mintfaq-admin.php:1442
+#: includes/class-mintfaq-admin.php:1443
+#: includes/instructions/shortcodes.php:160
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/class-mintfaq-shortcodes-table.php:138
+msgid "Add New Shortcode"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:32
+msgid "FAQ Icons"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:39
+msgid "Category Icons"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:46
+msgid "FAQ Effects"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:53
+msgid "FAQ Colors"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:60
+msgid "Category Colors"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:67
+msgid "Answers Title"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:74
+msgid "Answers Hide"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:81
+msgid "SEO Settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:88
+msgid "Default Icon"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:100
+#: includes/class-mintfaq-admin.php:136
+msgid "Default Icon Align"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:112
+msgid "Default FAQ Skin"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:124
+msgid "Default Category Icon"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:148
+msgid "Default Category Skin"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:160
+msgid "FAQ Primary color"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:172
+msgid "FAQ Secondary color"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:184
+#: includes/class-mintfaq-admin.php:232
+msgid "On Active"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:196
+#: includes/class-mintfaq-admin.php:244
+msgid "Change color by"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:208
+msgid "Category Primary color"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:220
+msgid "Category Secondary color"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:256
+msgid "Enable Answer Title"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:267
+msgid "Answer Title (Text)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:279
+msgid "Answer Title (Color)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:291
+msgid "Answer Title (Size)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:303
+msgid "Answer Title (Style)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:315
+msgid "Enable Answer Hide"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:326
+msgid "Answer Hide (Text)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:338
+msgid "Answer Hide (Size)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:350
+msgid "Answer Hide (Style)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:362
+msgid "Toggle FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:373
+msgid "FAQ Show Effect"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:385
+msgid "FAQ Show Effect (Timing)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:397
+msgid "FAQ Hide Effect"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:409
+msgid "FAQ Hide Effect (Timing)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:421
+msgid "SEO Structured Data"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:433
+msgid "Featured Settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:440
+msgid "Featured FAQ Color"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:461
+msgid "FAQ symbols related settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:473
+msgid "Category menu symbols related settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:485
+msgid "Answer title is appended to answers."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:497
+msgid "Answer hide link lets visitors close answers from withing answer."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:509
+msgid "FAQ Effects related settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:521
+msgid "FAQ color settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:533
+msgid "Category color settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:545
+msgid "FAQ footer settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:557
+msgid "FAQ General settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:569
+msgid "Manage SEO settings for Mint FAQ plugin."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:581
+msgid "Featured FAQ settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:603
+#: includes/class-mintfaq-admin.php:679
+msgid "Use"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:603
+#: includes/class-mintfaq-admin.php:679
+msgid "Premium icons"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:628
+#: includes/class-mintfaq-admin.php:704
+msgid "Icon Alignment default setting."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:654
+msgid "Default FAQ skin, can be changed by shortcode or block."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:730
+msgid "Default Category skin, can be changed by shortcode or block."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:769
+msgid "Lighten or Darken the color when active."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:792
+msgid "By how much percent of the base color."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:813
+msgid "Yes, Show Answer Title"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:816
+msgid "Show a defined text at the top of each answer."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:835
+#: includes/class-mintfaq-admin.php:934
+msgid "Text to be shown."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:912
+msgid "Yes, Show Hide Answer Button"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:915
+msgid "Show hide answer link at the bottom of each answer."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:995
+msgid "Yes, Toggle FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:998
+msgid "One FAQ can be opened at a time."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1021
+msgid "FAQ opening effect."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1043
+#: includes/class-mintfaq-admin.php:1087
+msgid "microseconds"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1065
+msgid "FAQ closing effect."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1107
+msgid "Enable Structured Data"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1110
+msgid "Make your FAQs distinctly visible in search engine results."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1111
+msgid ""
+"Note: It is upto search engine algorithm to show your FAQ in its "
+"results. We just provide the technology."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1112
+msgid ""
+"(You should not use more than 1 FAQ block on a page/post for SEO) "
+"rather you can use as many blocks as you want."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1113
+msgid ""
+"To test your SEO results in Google copy the URL of post/page with Mint "
+"FAQ and test"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1113
+#: includes/instructions/shortcodes.php:86
+msgid "here"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1134
+msgid "Color for Featured Text"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1165
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1173
+msgid ""
+"Welcome to Mint FAQ Settings. You can also apply individual settings "
+"using shortcodes or blocks."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1178
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1248
+msgid "Name"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1251
+msgid "shortcode name"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1257
+msgid "Layout Type"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1265
+msgid "Choose FAQ layout from here."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1271
+#: includes/class-mintfaq-admin.php:1472
+#: includes/class-mintfaq-admin.php:1473
+msgid "Categories"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1281
+msgid "Select Category"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1290
+msgid "or"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1291
+#: includes/class-mintfaq-admin.php:1292
+msgid "Create"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1291
+msgid "more categories."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1292
+msgid "FAQ."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1309
+msgid "Form Error"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1321
+msgid "Shortcode Saved"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1325
+msgid "Copy/paste the shortcode or use our prebuilt blocks."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1332
+msgctxt "admin help"
+msgid "For color, icons, skins, slide effects"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1332
+msgctxt "admin help"
+msgid "See settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1334
+msgid "Save Shortocde"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1343
+msgid "(Preview)"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1358
+msgid "Do you want to delete this field"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1394
+msgctxt "help menu"
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1395
+msgctxt "help menu"
+msgid "Blocks"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1396
+msgctxt "help menu"
+msgid "FAQ Priorities"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1397
+msgctxt "help menu"
+msgid "Highlighted FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1431
+#: includes/class-mintfaq-admin.php:1432
+#: includes/class-mintfaq-admin.php:1462
+#: includes/class-mintfaq-admin.php:1463
+msgid "FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1452
+#: includes/class-mintfaq-admin.php:1453
+msgid "Add New"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1482
+#: includes/class-mintfaq-admin.php:1483
+msgid "Settings"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1492
+#: includes/class-mintfaq-admin.php:1493
+msgid "Shortcodes Help"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1502
+#: includes/class-mintfaq-admin.php:1503
+#: includes/instructions/premium-icons.php:184
+msgid "Premium Icons"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1524
+#: includes/class-mintfaq-admin.php:1527
+msgid "FAQ updated."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1525
+msgid "Custom Field Updated."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1526
+msgid "Custom Field Deleted."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1528
+msgid "FAQ restored."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1529
+msgid "FAQ published."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1530
+msgid "FAQ saved."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1531
+msgid "FAQ submitted."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1532
+#, php-format
+msgid ""
+"FAQ scheduled for: <strong>%s</strong>. <a target=\"_blank\" href=\"%s"
+"\">Preview FAQ</a>"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1533
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1536
+msgid "FAQ draft updated."
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1553
+msgctxt "plugin row meta"
+msgid "Use Premium Icons"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1572
+msgctxt "plugin action link"
+msgid "Add FAQ Shortcode"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1598
+msgid "Add FAQ Shortcode"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1599
+msgid "lets start building FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1623
+msgid "Create categories here and continue"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1625
+msgid "adding FAQ shortcode"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1630
+msgid "Create categories for FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-admin.php:1648
+msgctxt "post column heading"
+msgid "FAQ Priority"
+msgstr ""
+
+#: includes/class-mintfaq-mb.php:31
+msgid "FAQ Options"
+msgstr ""
+
+#: includes/class-mintfaq-mb.php:70
+msgid "Enable Highlighting:"
+msgstr ""
+
+#: includes/class-mintfaq-mb.php:72
+msgid "Highlight this FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-mb.php:77
+msgid "FAQ Priority:"
+msgstr ""
+
+#: includes/class-mintfaq-mb.php:80
+msgid "Priority must be a number. With 0 being the highest priority."
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:42
+msgctxt "custom taxonomy"
+msgid "Categories"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:43
+msgctxt "custom taxonomy"
+msgid "Category"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:45
+msgctxt "custom taxonomy"
+msgid "FAQ categories are used to display FAQs on frontend."
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:75
+msgctxt "custom post type"
+msgid "FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:76
+msgctxt "custom post type"
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:77
+msgctxt "custom post type"
+msgid "Add New FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:78
+msgctxt "custom post type"
+msgid "Edit FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:79
+msgctxt "custom post type"
+msgid "New FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:80
+msgctxt "custom post type"
+msgid "View FAQ"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:81
+msgctxt "custom post type"
+msgid "View FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:82
+msgctxt "custom post type"
+msgid "Search FAQs"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:83
+msgctxt "custom post type"
+msgid "No FAQs Found"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:84
+msgctxt "custom post type"
+msgid "No FAQs Found in Trash"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:85
+msgctxt "custom post type"
+msgid "FAQ Archives"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:86
+msgctxt "custom post type"
+msgid "FAQ Attributes"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:89
+msgctxt "custom post type"
+msgid "FAQ for your site"
+msgstr ""
+
+#: includes/class-mintfaq-posttype.php:143
+msgid "FAQ item priority (default is 0)"
+msgstr ""
+
+#: includes/functions.install.php:66
+msgctxt "default term name"
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/functions.install.php:78
+msgctxt "default sample question"
+msgid "Sample Question?"
+msgstr ""
+
+#: includes/functions.install.php:79
+msgctxt "default sample answer"
+msgid "A sample answer.</p>"
+msgstr ""
+
+#: includes/functions.install.php:95
+msgctxt "default sample shortcode"
+msgid "Sample Shortcode"
+msgstr ""
+
+#: includes/functions.templates.php:131
+#: includes/functions.templates.php:153
+#: includes/instructions/faq-priorities.php:45
+msgid "Priority"
+msgstr ""
+
+#: includes/functions.templates.php:133
+#: includes/functions.templates.php:156
+msgid ""
+"FAQ Category Priority (0 - 1000) lowest priority will appear on the top."
+msgstr ""
+
+#: includes/functions.templates.php:282
+msgid "The Answer:"
+msgstr ""
+
+#: includes/functions.templates.php:287
+msgid "close"
+msgstr ""
+
+#: includes/functions.templates.php:355
+#: includes/functions.templates.php:385
+msgid "Normal"
+msgstr ""
+
+#: includes/functions.templates.php:355
+msgid "Bold"
+msgstr ""
+
+#: includes/functions.templates.php:355
+msgid "Italics"
+msgstr ""
+
+#: includes/functions.templates.php:385
+msgid "Fade"
+msgstr ""
+
+#: includes/functions.templates.php:385
+msgid "Slide"
+msgstr ""
+
+#: includes/functions.templates.php:415
+msgctxt "color action"
+msgid "Lighten"
+msgstr ""
+
+#: includes/functions.templates.php:415
+msgctxt "color action"
+msgid "Gain"
+msgstr ""
+
+#: includes/instructions/blocks.php:24
+msgid "Basic"
+msgstr ""
+
+#: includes/instructions/blocks.php:25
+msgid ""
+"can be used as an (alternative) for Mint FAQ Basic shortcode. Shows "
+"your FAQs with a menu of categories."
+msgstr ""
+
+#: includes/instructions/blocks.php:30
+msgid "Layered"
+msgstr ""
+
+#: includes/instructions/blocks.php:31
+msgid ""
+"can be used as an (alternative) for Mint FAQ Layered shortcode. Shows "
+"your FAQs in a beautiful accordion of categories."
+msgstr ""
+
+#: includes/instructions/blocks.php:36
+msgid "Simple"
+msgstr ""
+
+#: includes/instructions/blocks.php:37
+msgid ""
+"can be used as an (alternative) for Mint FAQ Simple shortcode. Shows "
+"your FAQs with categories as simple titles."
+msgstr ""
+
+#: includes/instructions/blocks.php:51
+msgid "Blocks"
+msgstr ""
+
+#: includes/instructions/blocks.php:54
+msgid ""
+"*Important: All the blocks are available in Post/Page editing screen. "
+"They are just alternatives for shortcodes."
+msgstr ""
+
+#: includes/instructions/faq-priorities.php:23
+msgid "FAQ Priority"
+msgstr ""
+
+#: includes/instructions/faq-priorities.php:24
+msgid ""
+"You decide the order of your FAQ. The highest order FAQ will appear at "
+"the top and lowest at the bottom."
+msgstr ""
+
+#: includes/instructions/faq-priorities.php:26
+#: includes/instructions/faq-priorities.php:32
+msgid "Priority: 0 - 1000"
+msgstr ""
+
+#: includes/instructions/faq-priorities.php:29
+msgid "Category Priority"
+msgstr ""
+
+#: includes/instructions/faq-priorities.php:30
+msgid ""
+"You decide the order of your Categories. The highest order Category "
+"will appear at the top and lowest at the bottom."
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:23
+msgid "Highlighted FAQ"
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:24
+msgid ""
+"Highlight the FAQ and it will appear distinct from other FAQs. An "
+"example is provided in the screenshot."
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:26
+msgid "Highlighted FAQ Example"
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:28
+msgid "Find this option on FAQ editing screen."
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:31
+msgid "Featured FAQ (Pro)"
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:32
+msgid ""
+"(PRO) Feature the FAQ and it will appear really distinct and featured "
+"from other FAQs. An example is provided in the screenshot."
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:34
+msgid "Featured FAQ Example"
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:36
+msgid "(Pro) Find this option on FAQ editing screen."
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:50
+msgid "Highlighting"
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:68
+msgid "Setup"
+msgstr ""
+
+#: includes/instructions/highlighted-faq.php:70
+msgctxt "instructions"
+msgid "setup"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:23
+#: includes/utilities/class-symbols.php:38
+msgctxt "symbol name"
+msgid "Plus"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:28
+#: includes/utilities/class-symbols.php:48
+msgctxt "symbol name"
+msgid "Open Arrow"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:33
+#: includes/utilities/class-symbols.php:58
+msgctxt "symbol name"
+msgid "Triangle"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:38
+#: includes/utilities/class-symbols.php:43
+msgctxt "symbol name"
+msgid "Plus Square Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:43
+#: includes/utilities/class-symbols.php:53
+msgctxt "symbol name"
+msgid "Open Arrow Circle"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:62
+msgctxt "symbol name"
+msgid "Plus Square"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:67
+msgctxt "symbol name"
+msgid "Plus Circle"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:72
+#: includes/instructions/premium-icons.php:77
+msgctxt "symbol name"
+msgid "Plus Square (fill)"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:82
+msgctxt "symbol name"
+msgid "Plus Round Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:87
+msgctxt "symbol name"
+msgid "Plus Curly Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:92
+msgctxt "symbol name"
+msgid "Open Arrow Square"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:97
+#: includes/instructions/premium-icons.php:102
+msgctxt "symbol name"
+msgid "Open Arrow Square (fill)"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:107
+msgctxt "symbol name"
+msgid "Open Arrow Square Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:112
+msgctxt "symbol name"
+msgid "Open Arrow Round Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:117
+msgctxt "symbol name"
+msgid "Open Arrow Curly Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:122
+msgctxt "symbol name"
+msgid "Triangle Square"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:127
+msgctxt "symbol name"
+msgid "Triangle Circle"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:132
+#: includes/instructions/premium-icons.php:137
+msgctxt "symbol name"
+msgid "Triangle Square (fill)"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:142
+msgctxt "symbol name"
+msgid "Triangle Square Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:147
+msgctxt "symbol name"
+msgid "Triangle Round Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:152
+msgctxt "symbol name"
+msgid "Triangle Curly Brackets"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:171
+msgid "Free Icons"
+msgstr ""
+
+#: includes/instructions/premium-icons.php:172
+msgid "These icons are packaged with current plugin."
+msgstr ""
+
+#: includes/instructions/premium-icons.php:185
+msgid "Premium icons are available with the Pro pack."
+msgstr ""
+
+#: includes/instructions/premium-icons.php:185
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:26
+msgid "Shows your FAQs with a menu of categories."
+msgstr ""
+
+#: includes/instructions/shortcodes.php:30
+#: includes/instructions/shortcodes.php:47
+#: includes/instructions/shortcodes.php:64
+msgid "Shortcode ID"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:31
+#: includes/instructions/shortcodes.php:48
+#: includes/instructions/shortcodes.php:65
+msgid "Icon for FAQ. See available icons"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:32
+#: includes/instructions/shortcodes.php:49
+#: includes/instructions/shortcodes.php:66
+msgid "FAQ icons alignment"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:33
+#: includes/instructions/shortcodes.php:50
+msgid "Icon for FAQ Category. See available icons"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:34
+#: includes/instructions/shortcodes.php:51
+msgid "FAQ Category icons alignment"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:35
+#: includes/instructions/shortcodes.php:36
+msgid "Any skins"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:43
+msgid "Shows your FAQs in a beautiful accordion of categories."
+msgstr ""
+
+#: includes/instructions/shortcodes.php:52
+msgid "Skin for FAQ Categories"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:53
+#: includes/instructions/shortcodes.php:67
+msgid "Skin for FAQs"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:60
+msgid "Shows your FAQs with categories as simple titles."
+msgstr ""
+
+#: includes/instructions/shortcodes.php:140
+msgctxt "category skin"
+msgid "Minimalist"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:141
+msgctxt "category skin"
+msgid "Bricks"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:142
+msgctxt "category skin"
+msgid "Elegant"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:143
+msgctxt "category skin"
+msgid "Distinct"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:144
+msgctxt "category skin"
+msgid "Round"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:145
+msgctxt "category skin"
+msgid "Steps"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:146
+msgctxt "category skin"
+msgid "Buttons"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:147
+msgctxt "category skin"
+msgid "Uncluttered"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:148
+msgctxt "category skin"
+msgid "Impact"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:161
+msgid ""
+"Instead of inserting shortcode, you can insert blocks in your page/post."
+msgstr ""
+
+#: includes/instructions/shortcodes.php:172
+msgid "Shortcode Options"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:183
+msgid "Preview"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:191
+msgid "Full Example"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:194
+msgid "Replace"
+msgstr ""
+
+#: includes/instructions/shortcodes.php:194
+msgid "with your Shortcode ID."
+msgstr ""
+
+#: includes/utilities/class-inline-js.php:38
+#: includes/utilities/class-inline-js.php:51
+#: includes/utilities/class-inline-js.php:64
+msgctxt "block options"
+msgid "Use Settings"
+msgstr ""
+
+#: includes/utilities/class-inline-js.php:77
+msgctxt "block options"
+msgid "Select Shortcode"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:166
+msgctxt "symbol wrapper name"
+msgid "Plain"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:170
+msgctxt "symbol wrapper name"
+msgid "Parentheses"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:174
+msgctxt "symbol wrapper name"
+msgid "Circle"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:178
+msgctxt "symbol wrapper name"
+msgid "Square"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:215
+msgctxt "symbol align name"
+msgid "Align Left"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:219
+msgctxt "symbol align name"
+msgid "Align Right"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:223
+msgctxt "symbol align name"
+msgid "Align Right Corner"
+msgstr ""
+
+#: includes/utilities/class-symbols.php:227
+msgctxt "symbol align name"
+msgid "None"
+msgstr ""

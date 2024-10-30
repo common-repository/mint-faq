@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1000px){
+	.mint-faq-nav-item-symbol-align-corner-right,
+	.mint-faq-single-q-symbol-align-corner-right {
+		.mint-faq-symbol{
+			width: 10%;
+			display: inline-block;
+			float: right;
+			text-align: right;
+			padding-left: 10px;
+			padding-right: 10px;
+			vertical-align: text-bottom;
+		}
+	}
+	.mint-faq-nav-item-symbol-align-corner-right {
+		.mint-faq-cat-item {
+			vertical-align: text-top;
+			display: inline-block;
+			width: 88%;
+		}
+	}
+
+	.mint-faq-single-q-symbol-align-corner-right {
+		.mint-faq-q-question {
+			display: inline-block;
+			width: 88%;
+		}
+	}
+}
+@media only screen and (max-width: 756px){
+	.mint-faq-layout-basic {
+		.mint-faq-nav {
+			width: 33%;
+			max-width: 33%;
+		}		
+
+		.mint-faq-modal {
+			width: 67%;
+			max-width: 67%;
+		}		
+	}
+}

@@ -1,0 +1,241 @@
+.mint-faq-admin-clear{
+    clear: both;
+}
+.mintfaq-admin-error-error,
+.mintfaq-admin-error-success {
+    padding: 12px 0 12px 12px;
+	display: none;
+}
+.mintfaq-admin-error-error{
+	padding: 18px 0 18px 18px;
+    background-color: #ffffff;
+    border: 1px solid #fcc5a5;
+	color: #666666;
+}
+.mintfaq-admin-error-error-text{
+	padding: 4px 6px 4px 4px;
+	border-left: 3px solid #f96f1f;
+	background-color: #fa8b4b;
+	color: #FFFFFF;
+}
+.mintfaq-admin-error-success{
+    background-color: #ffffff;
+	border: 1px solid #84e467;
+}
+.mintfaq-admin-error-success-text{
+	padding: 4px;
+	border-left: 3px solid #31aa0c;
+	background-color: #33cb05;
+	color: #FFFFFF;
+}
+/* admin wrapper */
+.mintfaq-admin-wrapper {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+.mintfaq-td-label {
+    width: 125px;
+    vertical-align: text-top;
+}
+.mintfaq-td-label,
+.mintfaq-td-input {
+    padding-bottom: 4px;
+}
+/* settings page */
+.mintfaq-admin-settings input[type=text],
+.mintfaq-admin-settings select,
+form[name=mintfaq-shortcode-form] input[type=text],
+form[name=mintfaq-shortcode-form] select{
+    width: 200px;
+}
+/* shortcode edit form */
+.mintfaq-admin-sc-top-menu li.all a,
+.mintfaq-admin-sc-top-menu li.edit a,
+.mintfaq-admin-sc-top-menu li a.current {
+	color: #FFFFFF;
+}
+.mintfaq-admin-sc-top-menu li a {
+	background-color: #800080;
+}
+.mintfaq-admin-sc-top-menu li.edit a {
+	background-color: #FFC0CB;
+}
+.mintfaq-admin-create-shortcode-wrap {
+	width: 100%;
+	max-width: 1000px;
+    float: left;
+    clear: both;
+    margin: 16px 0 0;
+}
+.mintfaq-sc-form-catlist{
+    padding: 4px 0;
+}
+.mintfaq-sc-form-catlist-item{
+    padding: 3px 0;
+}
+.mintfaq-sc-form-thumb-active{
+    display: block;
+}
+.mintfaq-sc-form-thumb-inactive{
+    display: none;
+}
+.mintfaq-sc-form-input{
+    width: 50%;
+    float:left;
+}
+.mintfaq-sc-form-thumb{
+    width:50%;
+    float:left;
+	text-align: center;
+}
+.mintfaq-sc-form-thumb-sec img{
+	width: 100%;
+	max-width: 450px;
+}
+p.mintfaq-td-description {
+    padding: 0;
+    margin: 4px 0;
+    text-indent: 6px;
+    color: #666666;
+}
+.mintfaq-sc-form-hint {
+	background-color: #f8ffcc;
+	padding: 0 0 5px;
+}
+/* settings */
+.mintfaq-admin-settings-hints {
+	border-left: 3px solid #FFC0CB;
+}
+/* help screen */
+.mintfaq-admin-help-wrapper{
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #FFFFFF;
+    padding: 14px;
+    border: 1px solid #CCCCCC;
+}
+.mintfaq-admin-help-col-tabs {
+    float: left;
+    width: 20%;
+    max-width: 160px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.mintfaq-admin-help-col-content {
+    float: left;
+    width: 80%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.mintfaq-admin-help-sections {
+    display: none;
+}
+
+.mintfaq-admin-help-sections-active {
+    display: block;
+}
+
+.mintfaq-admin-help-col-tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mintfaq-admin-help-col-tabs li {
+    margin: 0;
+    padding: 0;
+}
+
+.mintfaq-admin-help-col-tabs li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding: 7px 0 9px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+/* Help screen internals */
+.mint-faq-help-row {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.mint-faq-help-col-grid-8{
+    width: 50%;
+    float: left;
+}
+.mintfaq-admin-help-wrapper p {
+    font-size: 16px;
+}
+.mint-faq-help-shortcodes-row{
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.mint-faq-help-shortcodes-full-example {
+    padding-top: 16px;
+    float: left;
+    width: 100%;
+}
+.mint-faq-help-shortcodes-full-example textarea {
+    width: 100%;
+    padding: 8px;
+    line-height: 1.6;
+    overflow-x: scroll;
+}
+.mint-faq-help-shortcodes-col-thumb {
+	text-align: center;
+}
+.mint-faq-help-shortcodes-col-thumb img {
+	width: 100%;
+}
+.mintfaq-admin-help-col-content ul {
+	list-style: disc inside;
+}
+
+/* premium upgrade page */
+.mint-faq-help-premium-wrap {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 24px;
+    background-color: #FFFFFF;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mint-faq-help-premium-wrap h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+}
+/* faq meta */
+.mintfaq_faq_meta_table td{
+    padding: 4px 0;
+}
+.mintfaq_faq_meta_table td.mf-label-td{
+    min-width: 135px;
+    vertical-align: text-top;
+}
+/* hints */
+.mintfaq-admin-hints {
+    background-color: #f8ffcc;
+    padding: 8px 8px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+}
+.mintfaq-admin-hints-label {
+    color: #f22727;
+    font-weight: bold;
+}

@@ -1,0 +1,210 @@
+@import 'lib-mixins';
+
+@mixin skin-category-general {
+	outline: 0;
+	border: 0;
+}
+
+@mixin skin-category-general-margin-bottom {
+	margin-bottom: 1px;
+}
+
+@mixin skin-category-uncluttered {
+	padding-top: 10px;
+	border-bottom: 1px dashed #6d6d6d;
+}
+
+@mixin skin-category-bricks {
+	background-color: #6d6d6d;
+	/*background-color: #f2689f;*/
+	color: #FFFFFF;
+}
+
+@mixin skin-category-elegant {
+	@include skin-category-bricks;
+}
+
+@mixin skin-category-elegant-odd {
+	background-color: #545454;
+}
+
+@mixin skin-category-elegant-even {
+	background-color: #6d6d6d;
+}
+
+@mixin skin-category-distinct {
+	border: 1px solid #545454;
+	margin-bottom: -1px;
+}
+
+@mixin skin-category-distinct-border-bottom {
+	border-bottom: 1px solid #545454;
+}
+
+@mixin skin-category-round {
+	@include border-radius(14px);
+}
+
+@mixin skin-category-steps {
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+@mixin skin-category-steps-border-left{
+	border-left: 1px solid #6d6d6d;
+}
+
+@mixin skin-category-buttons{
+	@include border-radius(5px);
+	margin-bottom: 3px;
+}
+
+@mixin skin-category-impact-border-top {
+	border-top: 7px solid #545454;
+}
+
+@mixin skin-category-impact {
+	@include box-sizing;
+	border: 5px solid #545454;
+	border-top: 0;
+}
+
+/* category skins */
+.mint-faq-skin-category-minimalist {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+		}
+	}
+}
+
+.mint-faq-skin-category-uncluttered {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-uncluttered;
+		}
+	}
+}
+
+.mint-faq-skin-category-bricks {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-general-margin-bottom;
+			@include skin-category-bricks;
+		}
+	}
+}
+
+.mint-faq-skin-category-elegant {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-bricks;
+		}
+	}
+	
+	&.mint-faq-layout-layered {
+		.mint-faq-nav ul li:nth-child(odd){
+			.mint-faq-nav-item {
+				a[href^="#mint-faq-section"] {
+					@include skin-category-elegant-odd;
+				}
+			}
+		}
+		.mint-faq-nav ul li:nth-child(even){
+			.mint-faq-nav-item {
+				a[href^="#mint-faq-section"] {
+					@include skin-category-elegant-even;
+				}
+			}
+		}
+	}
+}
+
+.mint-faq-skin-category-distinct {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-bricks;
+			@include skin-category-distinct;
+		}
+		
+		&:last-child{
+			a[href^="#mint-faq-section"] {
+				@include skin-category-distinct-border-bottom;
+			}		
+		}
+	}
+}
+
+.mint-faq-skin-category-round {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-general-margin-bottom;
+			@include skin-category-bricks;
+			@include skin-category-round;
+			margin-bottom: 1px;
+		}
+	}
+}
+
+.mint-faq-skin-category-steps {
+	.mint-faq-nav {
+		@include skin-category-steps-border-left;
+	}
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-general-margin-bottom;
+			@include skin-category-bricks;
+			@include skin-category-steps;
+			margin-bottom: 3px;
+		}
+
+		&:last-child{
+			a[href^="#mint-faq-section"] {
+				margin-bottom: 0px;
+			}		
+		}
+	}
+}
+
+.mint-faq-skin-category-buttons {
+	.mint-faq-nav-item {
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-general-margin-bottom;
+			@include skin-category-bricks;
+			@include skin-category-buttons;
+		}
+
+		&:last-child{
+			a[href^="#mint-faq-section"] {
+				margin-bottom: 0px;
+			}		
+		}
+	}
+}
+
+
+.mint-faq-skin-category-impact {
+	.mint-faq-nav-item {
+		margin: 0;
+
+		a[href^="#mint-faq-section"] {
+			@include skin-category-general;
+			@include skin-category-bricks;
+			@include skin-category-impact;
+		}
+
+		&:first-child{
+			a[href^="#mint-faq-section"] {
+				@include skin-category-impact-border-top;
+			}		
+		}
+	}
+}
